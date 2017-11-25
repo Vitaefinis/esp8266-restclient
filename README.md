@@ -36,7 +36,7 @@ Use a local IP and an explicit port:
 RestClient client = RestClient("192.168.1.50",5000);
 ```
 
-#### SSL verification is disabled in this fork. Use only when testing/data is not sensitive and SSL fingerprint is causing problems. Not mean for production use.
+#### SSL verification is disabled in this fork. Use only when testing/data is not sensitive and SSL fingerprint is causing problems. Not meant for production use.
 
 Use a local IP, an explicit port to an SSL site and (must include the 1 to turn on SSL):
 ```c++
